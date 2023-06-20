@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+            rel="stylesheet">
+        <title>Bootstrap Example</title>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/e97e06d0af.js"
+            crossorigin="anonymous"></script>
+        <title>Document</title>
+        <style>
+            label{
+                padding: 5px;
+            }
+            textarea{
+                margin: 5px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <!-- <body class="m-5">
+       
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Off canvas Component & Modal
+        </button>
+
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Submit
+                            Feedback</h1>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <label>Your feedback matters to us</label>
+                        <br />
+                        <textarea rows="2" cols="50">
+
+                        </textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save
+                            changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1"
+            id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Feedback
+                    Form</h5>
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <label>Your feedback matters to us!</label>
+                <br />
+                <textarea rows="2" cols="40">
+
+                </textarea>
+
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </body> -->
+    <body>
+        <div class="center">
+            <h1 class="margin10">
+                Off canvas Component & Modal
+            </h1>
+
+            <button
+                type="button"
+                class="btn btn-primary margin5"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Submit Feedback (via Modal Component)
+            </button>
+            <button
+                class="btn btn-primary margin5"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                Submit Feedback (via offcanvas Component)
+            </button>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Submit
+                            Feedback</h5>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Your feedback matters to us!
+                        <textarea class="form-control margin5"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1"
+            id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    Feedback Form
+                </h5>
+                <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Your feedback matters to us!
+                </div>
+                <form>
+                    <textarea class="form-control margin5"></textarea>
+                    <button class="btn btn-primary margin5">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
